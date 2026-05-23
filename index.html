@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/dog.jpeg" type="image/x-icon" />
+
+    <title>Users</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/dog.jpeg" alt="Logo" />
+      <h1>Dog User Control</h1>
+    </header>
+    <nav>
+      <div class="pesquisa">
+        <button id="pesquisar">
+          <img src="img/lupa.png" alt="Pesquisa" />
+        </button>
+
+        <input type="text" id="entrada" placeholder="pesquisar por nome" />
+      </div>
+      <div class="login">
+        <button id="new">
+          <h4>NOVO-USER</h4>
+          <img src="img/pessoa.png" alt="login" />
+        </button>
+      </div>
+    </nav>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Nascimento</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+      </table>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
